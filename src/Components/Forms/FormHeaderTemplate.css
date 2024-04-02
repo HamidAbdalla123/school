@@ -1,0 +1,47 @@
+.group{
+    /* text-align: left; */
+    /* background-color: aqua; */
+    width: 43%;
+}
+.heading{
+    margin-top: 10px;
+}
+.sparetor{
+    height: 2px;
+}
+form{
+    margin-top: 2% !important;
+    box-shadow: 10px 10px 10px 5px #ddd;
+    border: 1px solid;
+    border-radius: 25px;
+    /* padding: 1%; */
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.inputs{
+    margin-left: 10%;
+    padding: 5px;
+}
+label{
+    margin-left: -50% !important;
+    padding: .3%;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+.custom-input{
+    width: 250px !important;
+    height: 20% !important;
+}
+
+.custom-d-flex{
+    display: flex!important;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.custom-temp-buttom {
+    margin-left:5rem !important
+}

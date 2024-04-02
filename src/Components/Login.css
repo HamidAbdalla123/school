@@ -1,0 +1,88 @@
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 6%;
+    /* background-color: aqua; */
+}
+.login-page{
+    width: 70%;
+    box-shadow: 10px 10px 10px 10px #ddd;
+    /* background-color: rgb(195, 204, 216); */
+
+}
+.login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 12%;
+    /* width: 75%; */
+    /* background-color: aqua; */
+}
+.user-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+}
+.user-img{
+    height: 80px;
+    border-radius: 50%;
+    width: 100px;
+}
+.user-img:hover{
+    box-shadow: 2px 2px 2px 2px,-2px -2px 2px 2px;
+    transition: all 1s ease-in-out;
+}
+.login-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cutsom-sm{
+    margin-top:5%;
+}
+span.eye{
+    cursor: pointer;
+}
+.custom-icon{
+    font-size: 1.5rem;
+}
+form{
+    width: 75%;
+    padding: 4%;
+}
+form input.custom-input{
+    width: 50%;
+    height: 43px;
+    font-size: 18px;
+    text-indent: 5px;
+}
+label{
+    margin-left: 5%;
+}
+form input.custom-input:focus{
+    box-shadow: none;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+@media (max-width:1000px){
+    .cutsom-sm{
+        margin-top:50%;
+    }
+}

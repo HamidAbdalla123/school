@@ -1,0 +1,29 @@
+.group{
+    /* text-align: left; */
+    /* background-color: aqua; */
+    width: 43%;
+}
+.sparetor{}
+form{
+    margin-top: 8%;
+    box-shadow: 10px 10px 10px 5px #ddd;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.buttons{
+    width: auto;
+}
+.btn-outline-primary:hover{
+    /* background-color: #44aeec; */
+}

@@ -1,0 +1,59 @@
+.logo-book{
+    font-size: 3rem;
+}
+.logo-book span{
+    font-size: 2rem;
+}
+.logo-section{}
+
+.baras-section{
+    font-size: 1.5rem;
+}
+.baras-section a{
+    color: black;
+}
+.baras-section a:hover{
+    color:#16417a;
+}
+
+
+.custom-nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+.custom-nav-link span {
+    font-size: 1rem;
+    color: white;
+    margin: 15px;
+    /* height: 11px; */
+    font-weight: bolder;
+}
+
+.off-div-nav-link{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;
+    cursor: pointer;
+}
+
+.off-div-nav-link:hover, .custom-nav-link :hover{
+    font-weight: bolder;
+    color: gray;
+}
+
+.off-custom-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.off-custom-footer div{
+    color: #fff;
+}
+.signOut,.setting{
+    font-size: 1.5rem;
+}
+.signOut:hover,.setting:hover{
+    color: brown;
+}
